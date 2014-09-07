@@ -1,0 +1,3 @@
+#!/bin/sh
+
+g++ -std=c++11 src/Pong.cpp src/Ball.cpp src/Bumper.cpp src/GameBoard.cpp src/Paddle.cpp src/Component.cpp src/Debug.cpp src/Engine.cpp src/GameObject.cpp src/Graphics.cpp src/InputEvent.cpp src/ObjectFactory.cpp src/UI.cpp src/Util.cpp -w -Wl,-subsystem,windows -lmingw32 -lSDL2main -lSDL2 -lOpenGL32 -lglu32 -o pong
