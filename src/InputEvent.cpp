@@ -1,6 +1,7 @@
 
 #include "InputEvent.h"
 
+using namespace curry;
 
 InputEvent::InputEvent()
 {

@@ -2,6 +2,9 @@
 #ifndef __INPUTEVENT_H
 #define __INPUTEVENT_H
 
+namespace curry
+{
+
 class InputEvent
 {
 public:
@@ -40,6 +43,8 @@ public:
    Key key;
    Mouse mouse;
    State state;
+};
+
 };
 
 #endif __INPUTEVENT_H

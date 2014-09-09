@@ -10,6 +10,8 @@
 
 #include <vector>
 
+namespace curry
+{
 
 class Ball : public GameObject
 {
@@ -24,6 +26,8 @@ public:
 private:
    Cartesian velocity; // components!
    float speed;
+};
+
 };
 
 #endif __BALL_H

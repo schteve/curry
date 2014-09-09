@@ -12,6 +12,8 @@
 
 #include <vector>
 
+namespace curry
+{
 
 class GameBoard : public GameObject
 {
@@ -29,6 +31,8 @@ private:
    Paddle * paddleA;
    Paddle * paddleB;
    Ball   * ball;
+};
+
 };
 
 #endif __GAMEBOARD_H

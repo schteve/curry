@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 
+using namespace curry;
 
 Debug::Debug(std::string filename)
 {

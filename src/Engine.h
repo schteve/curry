@@ -9,6 +9,8 @@
 
 #include <vector>
 
+namespace curry
+{
 
 class Engine
 {
@@ -30,6 +32,8 @@ private:
 
    bool HandleInput(void);
    void Render(float dt);
+};
+
 };
 
 #endif // __ENGINE_H

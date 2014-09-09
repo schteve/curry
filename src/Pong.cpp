@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+using namespace curry;
 
 int main(int argc, char* args[])
 {

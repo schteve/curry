@@ -10,6 +10,8 @@
 
 #include <vector>
 
+namespace curry
+{
 
 class Graphics
 {
@@ -23,6 +25,8 @@ public:
 private:
    SDL_Window * sdl_window;
    SDL_GLContext gl_context;
+};
+
 };
 
 #endif // __GRAPHICS_H

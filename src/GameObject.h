@@ -8,6 +8,8 @@
 
 #include <vector>
 
+namespace curry
+{
 
 class GameObject
 {
@@ -40,6 +42,8 @@ public:
 
 private:
    std::vector<Component *> components;
+};
+
 };
 
 #endif __GAMEOBJECT_H

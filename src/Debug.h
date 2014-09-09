@@ -6,6 +6,8 @@
 #include <iostream>
 #include <string>
 
+namespace curry
+{
 
 class Debug
 {
@@ -17,6 +19,8 @@ public:
 
 private:
    std::ofstream fout;
+};
+
 };
 
 #endif __DEBUG_H

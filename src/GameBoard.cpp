@@ -9,6 +9,7 @@
 
 #include <vector>
 
+using namespace curry;
 
 GameBoard::GameBoard(ObjectFactory * factory)
 {

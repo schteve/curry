@@ -10,6 +10,8 @@
 
 #include <vector>
 
+namespace curry
+{
 
 class Bumper : public GameObject
 {
@@ -20,6 +22,8 @@ public:
    void HandleInput(std::vector<InputEvent> input_events);
    void Update(std::vector<GameObject *> object_list, float dt);
    void Render(float dt);
+};
+
 };
 
 #endif __BUMPER_H

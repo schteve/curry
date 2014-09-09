@@ -7,6 +7,7 @@
 
 #include <vector>
 
+using namespace curry;
 
 UI::UI()
 {

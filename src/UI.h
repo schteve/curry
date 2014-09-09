@@ -7,6 +7,8 @@
 
 #include <vector>
 
+namespace curry
+{
 
 class UI
 {
@@ -20,6 +22,8 @@ public:
 
 private:
    std::vector<InputEvent> input_events;
+};
+
 };
 
 #endif __UI_H

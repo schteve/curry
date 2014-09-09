@@ -11,6 +11,7 @@
 #include <time.h>
 #include <vector>
 
+using namespace curry;
 
 Engine::Engine()
 {

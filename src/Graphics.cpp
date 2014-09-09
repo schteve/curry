@@ -8,6 +8,7 @@
 
 #include <vector>
 
+using namespace curry;
 
 Graphics::Graphics()
 {

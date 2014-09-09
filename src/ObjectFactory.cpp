@@ -2,6 +2,7 @@
 #include "GameObject.h"
 #include "ObjectFactory.h"
 
+using namespace curry;
 
 ObjectFactory::ObjectFactory()
 {

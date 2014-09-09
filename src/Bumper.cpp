@@ -11,6 +11,7 @@
 
 #include <vector>
 
+using namespace curry;
 
 Bumper::Bumper(ObjectFactory * factory, Cartesian position, Cartesian size)
    : GameObject(position)

@@ -13,6 +13,7 @@
 #include <cmath>
 #include <vector>
 
+using namespace curry;
 
 Ball::Ball(ObjectFactory * factory, Cartesian position, Cartesian velocity, Cartesian size)
    : GameObject(position),

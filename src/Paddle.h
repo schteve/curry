@@ -10,6 +10,9 @@
 
 #include <vector>
 
+namespace curry
+{
+
 class Paddle : public GameObject
 {
 public:
@@ -25,6 +28,8 @@ private:
 
    bool motionUp;
    bool motionDown;
+};
+
 };
 
 #endif __PADDLE_H

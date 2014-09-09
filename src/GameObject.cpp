@@ -6,6 +6,7 @@
 #include <cstdlib>
 #include <vector>
 
+using namespace curry;
 
 GameObject::GameObject()
    : id(IdNone)

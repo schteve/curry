@@ -6,6 +6,9 @@
 
 #include <vector>
 
+namespace curry
+{
+
 class ObjectFactory
 {
 public:
@@ -17,6 +20,8 @@ public:
 
 private:
    std::vector<GameObject *> objects;
+};
+
 };
 
 #endif // __OBJECTFACTORY_H

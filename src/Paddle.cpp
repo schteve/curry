@@ -12,6 +12,8 @@
 #include <cmath>
 #include <vector>
 
+using namespace curry;
+
 Paddle::Paddle(ObjectFactory * factory, Cartesian position, Cartesian velocity, Cartesian size)
    : GameObject(position),
      velocity(velocity)
